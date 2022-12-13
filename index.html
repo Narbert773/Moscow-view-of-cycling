@@ -5,11 +5,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Велопрогулки</title>
+    <title>Велопрогулки по Москве</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body class="root">
+    <div class="page">
+        <header class="header">
+            <div class="header__logo"><span class="header__logo-span text-color">VeloRoute</span></div>
+            <ul class="header__links">
+                <li class="header__link text-color">О проекте</li>
+                <li class="header__link text-color">Веломаршруты</li>
+                <li class="header__link text-color">Отзывы</li>
+            </ul>
+            <button class="header__search-button" type="button"></button>
+            <button class="header__profile-button text-color" type="button">Вход</button>
+        </header>
+        <hr class="intermediate-line">
+        <main class="main">
+            <section class="lead-page">
+                <h1 class="lead-page__title">Московский взгляд на велопрогулки</h1>
+                <button class="lead-page__button" type="button">Выбрать маршрут</button>
+                <img src="./images/Background.png" class="lead-page__background" alt="Фоновое изображение Москвы">
+            </section>
+            <section class="moscow">
+                <h2 class="title moscow__title text-color">Москва</h2>
+                <div class="moscow__benefits">
+                    <div class="moscow__benefit">
+                        <img src="./images/parks.png" class="moscow__benefit-image" alt="Парки">
+                        <h3 class="moscow__benefit-title text-color">Более 80 парков</h3>
+                        <p class="moscow__benefit-paragraph">Как заповедные участки, лесные и лесопарковые массивы,
+                            долины
+                            ручьев и рек так и скверы, парки и аллеи образуют экологический каркас города,
+                            обеспечивающий жизнедеятельность горожан.</p>
+                    </div>
+                    <div class="moscow__benefit">
+                        <img src="./images/tracks.png" class="moscow__benefit-image" alt="Велодорожки">
+                        <h3 class="moscow__benefit-title text-color">773 км велодорожек</h3>
+                        <p class="moscow__benefit-paragraph">На первый взгляд великая Москва не совсем подходит для
+                            прогулок на велосипеде. Однако в столице множество зон, оснащенных специальными
+                            велодорожками, а также длинными спусками.</p>
+                    </div>
+                    <div class="moscow__benefit">
+                        <img src="./images/naberezhnaya.png" class="moscow__benefit-image" alt="Набережные">
+                        <h3 class="moscow__benefit-title text-color">Около 70 набережных</h3>
+                        <p class="moscow__benefit-paragraph">Помимо того, что беспрерывная благоустроенная зона
+                            у берегов Москвы-реки обрамляет основные достопримечтальности города, на набержных для
+                            велосипедистов выделяют отдельную дорожку.</p>
+                    </div>
+                    <div class="moscow__benefit">
+                        <img src="./images/parking.png" class="moscow__benefit-image" alt="Парковки">
+                        <h3 class="moscow__benefit-title text-color">Более 700 пунктов проката</h3>
+                        <p class="moscow__benefit-paragraph">Пункты проката размещаются вблизи многих велодорожек
+                            и маршрутов. Благодаря их обилию каждый может подобрать себе в аренду велосипед
+                            по подходящему тарифному плану и в наиболее удобном месте.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="bike">
+                <h2 class="title bike__title text-color">Почему именно велосипед?</h2>
+                <div class="bike__benefits">
+                    <div class="bike__benefit">
+                        <img src="./images/Available.svg" class="bike__benefit-image" alt="Безопасность">
+                        <h3 class="bike__benet-title text-color">Безопасно</h3>
+                        <p class="bike__benefit-paragraph">Ты все контролируешь</p>
+                    </div>
+                    <div class="bike__benefit">
+                        <img src="./images/ecology.svg" class="bike__benefit-image" alt="Экологичность">
+                        <h3 class="bike__benet-title text-color">Экологично</h3>
+                        <p class="bike__benefit-paragraph">Скажи нет выхлопным газам</p>
+                    </div>
+                    <div class="bike__benefit">
+                        <img src="./images/Dostupno.svg" class="bike__benefit-image" alt="Доступность">
+                        <h3 class="bike__benet-title text-color">Доступно</h3>
+                        <p class="bike__benefit-paragraph">Легко взять в прокат</p>
+                    </div>
+                    <div class="bike__benefit">
+                        <img src="./images/interesting.svg" class="bike__benefit-image" alt="Интересно">
+                        <h3 class="bike__benet-title text-color">Интересно</h3>
+                        <p class="bike__benefit-paragraph">Прочувствуй каждый метр</p>
+                    </div>
+                </div>
+            </section>
+            <section class="cycling-routes">
+                <h2 class="title cycling-routes__title text-color">Веломаршруты</h2>
+                <a href="#" class="cycling-routes__link">Смотреть все &rarr;</a>
+                <div class="cycling-routes__cards">
+                    <div class="cycling-routes__card">
+                        <img src="./images/Moscow-river.jpg" class="cycling-routes__card-image"
+                            alt="Набережная Москвы-реки">
+                        <h3 class="cycling-routes__card-title text-color">По набережным Москвы-реки</h3>
+                        <div class="cycling-routes__card-group">
+                            <p class="cycling-routes__card-rate text-color">4.8 <img src="./images/Star.svg"
+                                    class="cycling-routes__card-star" alt="Звезда"></p>
+                            <p class="cycling-routes__card-reviews text-color">32 отзыва</p>
+                            <p class="cycling-routes__card-complexity text-color">Сложный</p>
+                            <p class="cycling-routes__card-duration text-color"><img src="./images/clock.svg"
+                                    class="cycling-routes__card-clock" alt="Часы">3,5 ч</p>
+                            <p class="cycling-routes__card-length text-color"><img src="./images/routing.svg"
+                                    class="cycling-routes__card-distance" alt="Расстояние">29 км</p>
+                        </div>
+                        <p class="cycling-routes__card-description">Любишь крутить педали? Тогда тебе подойдет большой
+                            маршрут по живописным московским набережным. Несмотря на расстояние дорога комфортная и
+                            пролегает через множество красивых, исторических и памятных мест.</p>
+                        <button class="cycling-routes__card-button" type="button">Подробнее</button>
+                    </div>
+                    <div class="cycling-routes__card">
+                        <img src="./images/Bitsa.jpg" class="cycling-routes__card-image" alt="Битцевский парк">
+                        <h3 class="cycling-routes__card-title text-color">Вокруг Битцевского леса</h3>
+                        <div class="cycling-routes__card-group">
+                            <p class="cycling-routes__card-rate text-color">4.7 <img src="./images/Star.svg"
+                                    class="cycling-routes__card-star" alt="Звезда"></p>
+                            <p class="cycling-routes__card-reviews text-color">15 отзывов</p>
+                            <p class="cycling-routes__card-complexity text-color">Лёгкий</p>
+                            <p class="cycling-routes__card-duration text-color"><img src="./images/clock.svg"
+                                    class="cycling-routes__card-clock" alt="Часы">1 ч</p>
+                            <p class="cycling-routes__card-length text-color"><img src="./images/routing.svg"
+                                    class="cycling-routes__card-distance" alt="Расстояние">7,5 км</p>
+                        </div>
+                        <p class="cycling-routes__card-description">Душа истосковалась по природе? Отправляйся
+                            в круговой маршрут вокруг одного из самых больших лесных массивов в Москве. В парке
+                            множество лавочек и зон отдыха, а изюминка маршрута — возможность организовать пикник.</p>
+                        <button class="cycling-routes__card-button" type="button">Подробнее</button>
+                    </div>
+                    <div class="cycling-routes__card">
+                        <img src="./images/Saiver.jpg" class="cycling-routes__card-image" alt="Храм Христа Спасителя">
+                        <h3 class="cycling-routes__card-title text-color">Центральный машрут</h3>
+                        <div class="cycling-routes__card-group">
+                            <p class="cycling-routes__card-rate text-color">4.7 <img src="./images/Star.svg"
+                                    class="cycling-routes__card-star" alt="Звезда"></p>
+                            <p class="cycling-routes__card-reviews text-color">58 отзывов</p>
+                            <p class="cycling-routes__card-complexity text-color">Лёгкий</p>
+                            <p class="cycling-routes__card-duration text-color"><img src="./images/clock.svg"
+                                    class="cycling-routes__card-clock" alt="Часы">1,5 ч</p>
+                            <p class="cycling-routes__card-length text-color"><img src="./images/routing.svg"
+                                    class="cycling-routes__card-distance" alt="Расстояние">9 км</p>
+                        </div>
+                        <p class="cycling-routes__card-description">Хочешь прочувствовать сердце столицы? Значит, тебе
+                            сюда, ведь данный маршрут охватывает практически весь центр Москвы. Прочувствовать историю
+                            великого города и посмотреть главные достопримечательности столицы можно здесь.</p>
+                        <button class="cycling-routes__card-button" type="button">Подробнее</button>
+                    </div>
+                </div>
+                <div class="arrows">&larr; &#186; &#186; &#186; &#186; &rarr;</div>
+            </section>
+        </main>
 
+    </div>
 </body>
 
 </html>

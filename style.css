@@ -1,0 +1,275 @@
+.root {
+    width: 100%;
+    background-color: lightblue;
+}
+
+.page {
+    width: 100%;
+    max-width: 1440px;
+    min-width: 200px;
+    min-height: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+.text-color {
+    color: rgba(2, 90, 61, 1);
+}
+
+.header {
+    min-height: 80px;
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.header__logo {
+    background-image: url(./images/bicycle.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    min-width: 22.5%;
+    display: flex;
+    margin-left: 3.3%;
+}
+
+.header__logo-span {
+    font-size: 36px;
+    line-height: 43.57px;
+    font-weight: normal;
+    margin: auto;
+}
+
+.header__links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 32%;
+}
+
+.header__link {
+    font-size: 20px;
+    line-height: 115%;
+    font-weight: normal;
+    list-style-type: none;
+    cursor: pointer;
+    align-self: center;
+    margin-right: 4.166%;
+}
+
+.header__search-button {
+    background-image: url(./images/search.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    margin-left: 15%;
+    min-height: 36px;
+    min-width: 36px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.header__profile-button {
+    margin-left: 4%;
+    margin-right: auto;
+    min-width: 14%;
+    min-height: 46px;
+    border: 1px solid #025A3D;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: normal;
+    align-self: center;
+}
+
+.intermediate-line {
+    margin-top: auto;
+    margin-bottom: 0;
+    border: none;
+    height: 4px;
+    background-color: blue;
+    background: linear-gradient(to bottom, rgba(46, 104, 85, 0.3), transparent);
+}
+
+.main {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.lead-page {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.lead-page__title {
+    font-size: 64px;
+    line-height: 89.6px;
+    font-weight: normal;
+    max-width: 61.6666667%;
+    text-align: center;
+    margin: 95px auto 40px;
+}
+
+.lead-page__button {
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: normal;
+    cursor: pointer;
+    background-color: rgba(2, 90, 61, 1);
+    color: rgba(204, 255, 238, 1);
+    min-width: 30.41666667%;
+    min-height: 54px;
+    margin: 0 auto 15px;
+    border: 1px solid #011E14;
+    border-radius: 16px;
+}
+
+.lead-page__background {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.moscow {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 41.4px;
+    font-weight: normal;
+    margin: 52px auto 0;
+}
+
+.moscow__benefits {
+    margin: 45px auto 49px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 90%;
+}
+
+.moscow__benefit {
+    max-width: 22.4305556%;
+    display: flex;
+    flex-direction: column;
+}
+
+.moscow__benefit-title {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: normal;
+}
+
+.moscow__benefit-paragraph {
+    font-size: 16px;
+    line-height: 23.2px;
+    font-weight: normal;
+}
+
+.bike {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.bike__benefits {
+    margin: 48px auto 64px;
+    display: flex;
+    min-width: 90%;
+    justify-content: space-between;
+}
+
+.bike__benefit {
+    min-width: 22.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bike__benet-title {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: normal;
+    text-align: center;
+    margin: 32px auto 0;
+}
+
+.bike__benefit-paragraph {
+    font-size: 16px;
+    line-height: 23.2px;
+    font-weight: normal;
+    text-align: center;
+    margin: 20px auto 32px;
+}
+
+.bike__benefit-image {
+    margin: 32px auto 0;
+}
+
+.cycling-routes {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.cycling-routes__link {
+    text-decoration: none;
+    color: rgba(1, 30, 20, 1);
+    width: fit-content;
+    margin: 16px 10.3% 0 auto;
+}
+
+.cycling-routes__cards {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    max-width: 90%;
+    margin: 40px auto 0;
+}
+
+.cycling-routes__card {
+    border: 1px solid #011E14;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    max-width: 32%;
+}
+
+.cycling-routes__card-image {
+    width: 100%;
+    border-radius: 15px;
+    max-height: 400px;
+}
+
+
+
+.cycling-routes__card-group {
+    border: 1px solid blue;
+    display: flex;
+}
+
+.cycling-routes__card-rate {
+    border: 1px solid red;
+    width: fit-content;
+    display: flex;
+    font-size: 16px;
+    line-height: 23.2px;
+    font-weight: normal;
+}
+
+.cycling-routes__card-star {
+    margin-left: 0.00277778%;
+}
