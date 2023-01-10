@@ -22,7 +22,7 @@
             <button class="header__search-button" type="button"></button>
             <button class="header__profile-button text-color" type="button">Вход</button>
         </header>
-        <hr class="intermediate-line">
+        <hr class="intermediate-line intermediate-line_place_header">
         <main class="main">
             <section class="lead-page">
                 <h1 class="lead-page__title">Московский взгляд на велопрогулки</h1>
@@ -90,68 +90,147 @@
             </section>
             <section class="cycling-routes">
                 <h2 class="title cycling-routes__title text-color">Веломаршруты</h2>
-                <a href="#" class="cycling-routes__link">Смотреть все &rarr;</a>
+                <a href="#" class="section-link cycling-routes__link">Смотреть все &rarr;</a>
                 <div class="cycling-routes__cards">
                     <div class="cycling-routes__card">
-                        <img src="./images/Moscow-river.jpg" class="cycling-routes__card-image"
+                        <img src="./images/Moskva-river.jpg" class="cycling-routes__card-image"
                             alt="Набережная Москвы-реки">
                         <h3 class="cycling-routes__card-title text-color">По набережным Москвы-реки</h3>
                         <div class="cycling-routes__card-group">
-                            <p class="cycling-routes__card-rate text-color">4.8 <img src="./images/Star.svg"
-                                    class="cycling-routes__card-star" alt="Звезда"></p>
-                            <p class="cycling-routes__card-reviews text-color">32 отзыва</p>
-                            <p class="cycling-routes__card-complexity text-color">Сложный</p>
-                            <p class="cycling-routes__card-duration text-color"><img src="./images/clock.svg"
-                                    class="cycling-routes__card-clock" alt="Часы">3,5 ч</p>
-                            <p class="cycling-routes__card-length text-color"><img src="./images/routing.svg"
-                                    class="cycling-routes__card-distance" alt="Расстояние">29 км</p>
+                            <p class="cycling-routes__charasteristics cycling-routes__card-rate leveler text-color">4.8
+                                <img src="./images/Star.svg" class="cycling-routes__card-star" alt="Звезда">
+                            </p>
+                            <p class="cycling-routes__charasteristics cycling-routes__card-reviews leveler text-color">
+                                32 отзыва</p>
                         </div>
-                        <p class="cycling-routes__card-description">Любишь крутить педали? Тогда тебе подойдет большой
+                        <div class="cycling-routes__card-group">
+                            <p
+                                class="cycling-routes__charasteristics cycling-routes__card-complexity leveler text-color">
+                                Сложный</p>
+                            <p class="cycling-routes__charasteristics cycling-routes__card-duration leveler text-color">
+                                <img src="./images/clock.svg" class="cycling-routes__card-clock" alt="Часы">3,5 ч
+                            </p>
+                            <p class="cycling-routes__charasteristics cycling-routes__card-length leveler text-color">
+                                <img src="./images/routing.svg" class="cycling-routes__card-distance"
+                                    alt="Расстояние">29 км
+                            </p>
+                        </div>
+                        <p class="section-paragraph cycling-routes__card-description">Любишь крутить педали? Тогда тебе
+                            подойдет большой
                             маршрут по живописным московским набережным. Несмотря на расстояние дорога комфортная и
                             пролегает через множество красивых, исторических и памятных мест.</p>
-                        <button class="cycling-routes__card-button" type="button">Подробнее</button>
+                        <button class="section-button cycling-routes__card-button" type="button">Подробнее</button>
                     </div>
                     <div class="cycling-routes__card">
                         <img src="./images/Bitsa.jpg" class="cycling-routes__card-image" alt="Битцевский парк">
                         <h3 class="cycling-routes__card-title text-color">Вокруг Битцевского леса</h3>
                         <div class="cycling-routes__card-group">
-                            <p class="cycling-routes__card-rate text-color">4.7 <img src="./images/Star.svg"
-                                    class="cycling-routes__card-star" alt="Звезда"></p>
-                            <p class="cycling-routes__card-reviews text-color">15 отзывов</p>
-                            <p class="cycling-routes__card-complexity text-color">Лёгкий</p>
-                            <p class="cycling-routes__card-duration text-color"><img src="./images/clock.svg"
-                                    class="cycling-routes__card-clock" alt="Часы">1 ч</p>
-                            <p class="cycling-routes__card-length text-color"><img src="./images/routing.svg"
-                                    class="cycling-routes__card-distance" alt="Расстояние">7,5 км</p>
+                            <p class="cycling-routes__charasteristics cycling-routes__card-rate leveler text-color">4.7
+                                <img src="./images/Star.svg" class="cycling-routes__card-star" alt="Звезда">
+                            </p>
+                            <p class="cycling-routes__charasteristics cycling-routes__card-reviews leveler text-color">
+                                15 отзывов</p>
                         </div>
-                        <p class="cycling-routes__card-description">Душа истосковалась по природе? Отправляйся
+                        <div class="cycling-routes__card-group">
+                            <p
+                                class="cycling-routes__charasteristics cycling-routes__card-complexity leveler text-color">
+                                Лёгкий</p>
+                            <p class="cycling-routes__charasteristics cycling-routes__card-duration leveler text-color">
+                                <img src="./images/clock.svg" class="cycling-routes__card-clock" alt="Часы">1 ч
+                            </p>
+                            <p class="cycling-routes__charasteristics cycling-routes__card-length leveler text-color">
+                                <img src="./images/routing.svg" class="cycling-routes__card-distance"
+                                    alt="Расстояние">7,5 км
+                            </p>
+                        </div>
+                        <p class="section-paragraph cycling-routes__card-description">Душа истосковалась по природе?
+                            Отправляйся
                             в круговой маршрут вокруг одного из самых больших лесных массивов в Москве. В парке
                             множество лавочек и зон отдыха, а изюминка маршрута — возможность организовать пикник.</p>
-                        <button class="cycling-routes__card-button" type="button">Подробнее</button>
+                        <button class="section-button cycling-routes__card-button" type="button">Подробнее</button>
                     </div>
                     <div class="cycling-routes__card">
                         <img src="./images/Saiver.jpg" class="cycling-routes__card-image" alt="Храм Христа Спасителя">
                         <h3 class="cycling-routes__card-title text-color">Центральный машрут</h3>
                         <div class="cycling-routes__card-group">
-                            <p class="cycling-routes__card-rate text-color">4.7 <img src="./images/Star.svg"
-                                    class="cycling-routes__card-star" alt="Звезда"></p>
-                            <p class="cycling-routes__card-reviews text-color">58 отзывов</p>
-                            <p class="cycling-routes__card-complexity text-color">Лёгкий</p>
-                            <p class="cycling-routes__card-duration text-color"><img src="./images/clock.svg"
-                                    class="cycling-routes__card-clock" alt="Часы">1,5 ч</p>
-                            <p class="cycling-routes__card-length text-color"><img src="./images/routing.svg"
-                                    class="cycling-routes__card-distance" alt="Расстояние">9 км</p>
+                            <p class="cycling-routes__charasteristics cycling-routes__card-rate leveler text-color">4.7
+                                <img src="./images/Star.svg" class="cycling-routes__card-star" alt="Звезда">
+                            </p>
+                            <p class="cycling-routes__charasteristics cycling-routes__card-reviews leveler text-color">
+                                58 отзывов</p>
                         </div>
-                        <p class="cycling-routes__card-description">Хочешь прочувствовать сердце столицы? Значит, тебе
+                        <div class="cycling-routes__card-group">
+                            <p
+                                class="cycling-routes__charasteristics cycling-routes__card-complexity leveler text-color">
+                                Лёгкий</p>
+                            <p class="cycling-routes__charasteristics cycling-routes__card-duration leveler text-color">
+                                <img src="./images/clock.svg" class="cycling-routes__card-clock" alt="Часы">1,5 ч
+                            </p>
+                            <p class="cycling-routes__charasteristics cycling-routes__card-length leveler text-color">
+                                <img src="./images/routing.svg" class="cycling-routes__card-distance" alt="Расстояние">9
+                                км
+                            </p>
+                        </div>
+                        <p class="section-paragraph cycling-routes__card-description">Хочешь прочувствовать сердце
+                            столицы? Значит, тебе
                             сюда, ведь данный маршрут охватывает практически весь центр Москвы. Прочувствовать историю
                             великого города и посмотреть главные достопримечательности столицы можно здесь.</p>
-                        <button class="cycling-routes__card-button" type="button">Подробнее</button>
+                        <button class="section-button cycling-routes__card-button" type="button">Подробнее</button>
                     </div>
                 </div>
-                <div class="arrows">&larr; &#186; &#186; &#186; &#186; &rarr;</div>
+                <div class="cycling-routes__arrows">
+                    <div class="left-arrow cycling-routes__left-arrow"></div>
+                    <div class="point cycling-routes__point"></div>
+                    <div class="point cycling-routes__point"></div>
+                    <div class="point cycling-routes__point"></div>
+                    <div class="point cycling-routes__point"></div>
+                    <div class="right-arrow cycling-routes__right-arrow"></div>
+                </div>
+            </section>
+            <section class="news">
+                <h2 class="title news__title text-color">Новости</h2>
+                <a href="#" class="section-link news__link">Смотреть все &rarr;</a>
+                <div class="news__cards">
+                    <div class="news__card">
+                        <img src="./images/Goblet.jpg" class="news__card-image" alt="Кубки">
+                        <h4 class="news__date text-color">10.10.2022</h4>
+                        <p class="section-paragraph news__paragraph">VeloRoute запускает конкрус по предложению
+                            маршрута! Участие может
+                            принять каждый старше 18 лет. Победители получат призы, а лучшие маршруты будут резмещены
+                            на сайте</p>
+                        <button class="section-button news__card-button" type="button">Подробнее</button>
+                    </div>
+                    <div class="news__card">
+                        <img src="./images/Bikeman.jpg" class="news__card-image" alt="Мужчина на велосипеде">
+                        <h4 class="news__date text-color">08.11.2022</h4>
+                        <p class="section-paragraph news__paragraph">10 километров велодорожек появилось в
+                            благоустроенном парке
+                            Покровское-Стрешнево</p>
+                        <button class="section-button news__card-button" type="button">Подробнее</button>
+                    </div>
+                    <div class="news__card">
+                        <img src="./images/rent-bike-city.jpg" class="news__card-image" alt="Прокат велосипедов">
+                        <h4 class="news__date text-color">01.11.2022</h4>
+                        <p class="section-paragraph news__paragraph">Открылся новый пункт проката велосипедов возле
+                            станции метро «Водный
+                            стадион»</p>
+                        <button class="section-button news__card-button" type="button">Подробнее</button>
+                    </div>
+                </div>
+                <div class="cycling-routes__arrows">
+                    <div class="left-arrow cycling-routes__left-arrow"></div>
+                    <div class="point cycling-routes__point"></div>
+                    <div class="point cycling-routes__point"></div>
+                    <div class="point cycling-routes__point"></div>
+                    <div class="point cycling-routes__point"></div>
+                    <div class="right-arrow cycling-routes__right-arrow"></div>
+                </div>
             </section>
         </main>
-
+        <hr class="intermediate-line intermediate-line_place_footer">
+        <footer class="footer">
+            <div class="footer__logo"></div>
+        </footer>
     </div>
 </body>
 

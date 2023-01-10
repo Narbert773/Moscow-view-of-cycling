@@ -1,6 +1,7 @@
 .root {
     width: 100%;
-    background-color: lightblue;
+    background-color: lightcyan;
+    ;
 }
 
 .page {
@@ -21,6 +22,11 @@
 
 .text-color {
     color: rgba(2, 90, 61, 1);
+}
+
+.leveler {
+    display: flex;
+    align-items: center;
 }
 
 .header {
@@ -97,6 +103,9 @@
     border: none;
     height: 4px;
     background-color: blue;
+}
+
+.intermediate-line_place_header {
     background: linear-gradient(to bottom, rgba(46, 104, 85, 0.3), transparent);
 }
 
@@ -221,10 +230,9 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
 }
 
-.cycling-routes__link {
+.section-link {
     text-decoration: none;
     color: rgba(1, 30, 20, 1);
     width: fit-content;
@@ -235,7 +243,6 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
     max-width: 90%;
     margin: 40px auto 0;
 }
@@ -250,26 +257,172 @@
 
 .cycling-routes__card-image {
     width: 100%;
-    border-radius: 15px;
-    max-height: 400px;
+    border-radius: 14px;
+    height: 275px;
 }
 
-
+.cycling-routes__card-title {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 23px;
+    margin-left: 3.66132723%;
+}
 
 .cycling-routes__card-group {
-    border: 1px solid blue;
+    min-width: calc(100% - (3.66132723% + 3.66132723%));
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
     display: flex;
 }
 
 .cycling-routes__card-rate {
-    border: 1px solid red;
     width: fit-content;
-    display: flex;
     font-size: 16px;
-    line-height: 23.2px;
+    line-height: 23px;
     font-weight: normal;
 }
 
 .cycling-routes__card-star {
     margin-left: 0.00277778%;
+    max-height: 18px;
+}
+
+.cycling-routes__card-clock {
+    margin-right: 3px;
+}
+
+.cycling-routes__card-distance {
+    margin-right: 3px;
+}
+
+.cycling-routes__charasteristics {
+    margin-right: 7%;
+    margin-top: 0;
+}
+
+.section-button {
+    margin: 20px auto 35px;
+    cursor: pointer;
+    min-width: calc(100% - (3.66132723% + 3.66132723%));
+    border-radius: 16px;
+    background-color: white;
+    border: 1px solid #025A3D;
+    min-height: 46px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.cycling-routes__arrows {
+    margin: 50px auto 60px;
+    min-width: 60%;
+    display: flex;
+    justify-content: center
+}
+
+.point {
+    min-width: 0.9%;
+    background-image: url(./images/Smallcirc.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 2.3%;
+    cursor: pointer;
+}
+
+.point:nth-of-type(2) {
+    background-image: url(./images/Smallcircblack.svg);
+}
+
+.point:nth-of-type(5) {
+    margin-right: 0;
+}
+
+.left-arrow {
+    min-width: 67px;
+    min-height: 20px;
+    background-image: url(./images/Larrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 11%;
+    cursor: pointer;
+}
+
+.right-arrow {
+    min-width: 67px;
+    background-image: url(./images/Rarrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 11%;
+    cursor: pointer;
+}
+
+.news {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.news__cards {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 40px auto 0;
+}
+
+.news__card {
+    border: 1px solid #011E14;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    min-width: 24%;
+    margin-right: 1%;
+}
+
+.news__card:first-of-type {
+    min-width: 48%;
+}
+
+.news__card:last-of-type {
+    margin-right: 0;
+}
+
+
+.news__card-image {
+    height: 330px;
+    border-radius: 14px;
+}
+
+.news__date {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 23px;
+    margin-left: 3.66132723%;
+}
+
+.section-paragraph {
+    max-width: calc(100% - (3.66132723% + 3.66132723%));
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 23px;
+    margin: 0 auto 0;
+}
+
+.intermediate-line_place_footer {
+    background: linear-gradient(to top, rgba(46, 104, 85, 0.3), transparent);
+}
+
+.footer {
+    min-height: 311px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.footer__logo {
+    border: 1px solid blue;
+    background-image: url(./images/Footerlogo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
